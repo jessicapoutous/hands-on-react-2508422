@@ -6,7 +6,11 @@ nav ul li a {
   padding-bottom: 0.5em;
 }
 
-nav summary + ul li {
+nav summary {
+  font-family: 'Bungee', sans-serif;
+}
+
+nav summary+ul li {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
@@ -15,7 +19,7 @@ nav details li a {
   font-size: 0.7em;
 }
 
-details[role="list"] summary + ul li a:hover {
+details[role="list"] summary+ul li a:hover {
   color: $primary-500;
   font-weight: 700;
 }
