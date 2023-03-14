@@ -27,9 +27,15 @@ export default ({ member, handleClose, handleChange }) => {
               }}>
                 <a className="outline" href="#" role="button"
                   onClick={() => { handleChange(Number(member.id) - 1) }}
+                  style={{
+                    paddingTop: '1em'
+                  }}
                 ><span className="material-symbols-outlined">arrow_back</span></a>
                 <a className="outline" href="#" role="button"
                   onClick={() => { handleChange(Number(member.id) + 1) }}
+                  style={{
+                    paddingTop: '1em'
+                  }}
                 ><span className="material-symbols-outlined">arrow_forward</span></a>
               </hgroup>
             </hgroup>
